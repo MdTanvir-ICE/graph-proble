@@ -1,0 +1,19 @@
+.text_area_container{
+    max-width:600px;
+    margin:30px auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.text_area_container textarea{
+width:100%;
+background-color: aliceblue;
+border-color:dimgray;
+outline:none;
+resize:none;
+border-radius:5px
+}
+.text_area_container button{
+    width:50%;
+    margin-left:20%;
+}

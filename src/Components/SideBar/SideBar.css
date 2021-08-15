@@ -1,0 +1,21 @@
+.sidebar .sidebar_category{
+    background: #1A0D2A;
+    list-style:none;
+    max-height: 600px;
+    width:100%;
+    margin:0 auto;
+    border-right: 1px solid grey;
+    box-shadow: 1px 2px 3px white;
+
+}
+.sidebar li a{
+    text-decoration:none;
+    display: inline-block;
+    color:#FFF;
+    font-size:15px;
+    font-weight:bold;
+}
+.sidebar li{
+    padding:5% 0 3% 10%;
+    border-bottom: 1px solid grey;
+}

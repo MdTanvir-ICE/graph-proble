@@ -1,0 +1,103 @@
+.itBlog_down_nav_container{
+    background: #1A0D2A;
+}
+.itBlog_down_nav  {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 85.7%;
+    font-size: 15px;
+    line-height: 30px;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: relative;
+  }
+  .itBlog_down_nav_button {
+    display: flex;
+    background:#2466BD;
+    justify-content: space-around;
+    align-items: center;
+    width: 24.3%;
+    z-index: 2;
+  }
+  .itBlog_down_nav_button > .bar span {
+    display: block;
+  }
+
+  input[type="checkbox"] {
+    -webkit-appearance: none;
+    display: none;
+  }
+  .itBlog_down_nav  > ol {
+    display: block;
+    list-style: none;
+    width: 100%;
+    top: 37px;
+    padding-left: 0px;
+    background: #2940d3;
+    position: absolute;
+    visibility: hidden;
+    z-index: 10;
+  }
+  .itBlog_down_nav >ol>li {
+    text-align: center;
+    width:100%;
+    height:100%;
+    /* transition: 0.5s 0.1s all; */
+    border-bottom: 1px solid #eee;
+    
+  }
+  .itBlog_down_nav  ol li a {
+    padding:5px;
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  .itBlog_down_nav  ol li :hover {
+    background: white;
+    color: #2940d3;
+  }
+  .itBlog_down_nav  .bar #times {
+    display: none;
+  }
+  .control_humburger {
+    margin-left: 10px;  
+  }
+  p{
+    margin: 0!important;
+  }
+  select {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    padding-right: px;
+  }
+  .select-items {
+    position: absolute;
+    background-color: black;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  @media screen and (max-width: 1250px) {
+    #check:checked ~ .itBlog_down_nav  .bar #times {
+      color: white;
+      display: block;
+    }
+    #check:checked ~ .itBlog_down_nav  .bar #bars {
+      display: none;
+    }
+    #check:checked ~ .itBlog_down_nav  ol {
+      visibility: visible;
+    }
+    .control_humburger {
+      display: none;
+    }
+    .itBlog_down_nav_button {
+      width: 10%;
+      background:#1A0D2A;
+    }
+  }

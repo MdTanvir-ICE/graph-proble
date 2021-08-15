@@ -1,0 +1,13 @@
+.my__carousel_main >div>ol>li{
+    
+                background-color:#fff;
+                padding:3px ;
+                margin-right:5px;
+                height: auto;
+                width: 60px;
+                
+            
+}
+.my__carousel_main >div>ol>.active{
+    background-color: #D0D5D9;
+}

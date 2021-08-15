@@ -1,0 +1,16 @@
+.view_wrapper{
+    padding:15px;
+}
+.sudo_content_right .view_wrapper img{
+    width:100%;
+    padding : 15px 0;
+    max-height:200px;
+    object-fit:cover;
+}
+.sudo_content_right .view_wrapper .asked-bar{
+    width:100%;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

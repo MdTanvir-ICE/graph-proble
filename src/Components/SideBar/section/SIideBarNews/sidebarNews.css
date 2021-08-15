@@ -1,0 +1,52 @@
+.sideBar_news{
+   width:100%;
+}
+.sideBar_news_topic{
+    color:white;
+    background:#2466BD;
+    min-height:35px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding:2px 2px;
+    text-align: center;
+   
+}
+.sideBar_news_headings{
+    padding:2px;
+     
+}
+.sideBar_news_heading{
+    padding:0 2px;
+}
+
+.sideBar_news_heading> p{
+    font-size:15px;
+    margin-bottom:-10px;
+}
+.subtopic1{
+    padding: 2px;
+    grid-area:left;
+}
+.subtopic2{
+    grid-area: right;
+}
+@media screen and (max-width: 1250px) {
+    .sideBar_news{
+        /* display:flex;
+        justify-content:space-between; */
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: "left right";
+        grid-column-gap: 2px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .sideBar_news{
+    
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows:auto auto ;
+        grid-template-areas: "left" "right";
+       
+    }
+}
+
